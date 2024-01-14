@@ -21,6 +21,10 @@
 		E98DC2962B5426EF0027EC3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98DC2892B5426EF0027EC3E /* ContentView.swift */; };
 		E98DC2972B5426EF0027EC3E /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98DC28B2B5426EF0027EC3E /* NotificationCell.swift */; };
 		E98DC2982B5426EF0027EC3E /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98DC28C2B5426EF0027EC3E /* NotificationsView.swift */; };
+		E98DC29A2B5439C70027EC3E /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98DC2992B5439C70027EC3E /* CurrentUserProfileView.swift */; };
+		E98DC29C2B543A4E0027EC3E /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98DC29B2B543A4E0027EC3E /* ProfileHeaderView.swift */; };
+		E98DC29E2B543A5B0027EC3E /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98DC29D2B543A5B0027EC3E /* PostGridView.swift */; };
+		E98DC2A22B5441A90027EC3E /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98DC2A12B5441A90027EC3E /* UserStatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,10 @@
 		E98DC2892B5426EF0027EC3E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E98DC28B2B5426EF0027EC3E /* NotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		E98DC28C2B5426EF0027EC3E /* NotificationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		E98DC2992B5439C70027EC3E /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		E98DC29B2B543A4E0027EC3E /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		E98DC29D2B543A5B0027EC3E /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		E98DC2A12B5441A90027EC3E /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +226,9 @@
 		E98DC2842B5426EF0027EC3E /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				E98DC2A02B5441710027EC3E /* View */,
+				E98DC29F2B54416B0027EC3E /* Components */,
+				E98DC2992B5439C70027EC3E /* CurrentUserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -274,6 +285,23 @@
 			children = (
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		E98DC29F2B54416B0027EC3E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E98DC29B2B543A4E0027EC3E /* ProfileHeaderView.swift */,
+				E98DC29D2B543A5B0027EC3E /* PostGridView.swift */,
+				E98DC2A12B5441A90027EC3E /* UserStatView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E98DC2A02B5441710027EC3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,11 +436,15 @@
 			files = (
 				E98DC2952B5426EF0027EC3E /* FeedCell.swift in Sources */,
 				E98DC2982B5426EF0027EC3E /* NotificationsView.swift in Sources */,
+				E98DC29C2B543A4E0027EC3E /* ProfileHeaderView.swift in Sources */,
+				E98DC2A22B5441A90027EC3E /* UserStatView.swift in Sources */,
 				E98DC2972B5426EF0027EC3E /* NotificationCell.swift in Sources */,
 				E98DC2962B5426EF0027EC3E /* ContentView.swift in Sources */,
 				E98DC24E2B54267E0027EC3E /* TiktokingApp.swift in Sources */,
 				E98DC2922B5426EF0027EC3E /* ExploreView.swift in Sources */,
 				E98DC2932B5426EF0027EC3E /* UserCell.swift in Sources */,
+				E98DC29E2B543A5B0027EC3E /* PostGridView.swift in Sources */,
+				E98DC29A2B5439C70027EC3E /* CurrentUserProfileView.swift in Sources */,
 				E98DC2942B5426EF0027EC3E /* FeedView.swift in Sources */,
 				E98DC2912B5426EF0027EC3E /* MainTabView.swift in Sources */,
 			);
