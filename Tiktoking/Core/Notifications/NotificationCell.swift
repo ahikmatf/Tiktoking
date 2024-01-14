@@ -27,5 +27,6 @@ struct NotificationCell: View {
                 .frame(width: 48, height: 48)
                 .clipShape(RoundedRectangle(cornerRadius: 6))
         }
+        .padding(.horizontal)
     }
 }
