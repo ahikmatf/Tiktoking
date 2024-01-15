@@ -42,8 +42,8 @@ struct MainTabView: View {
                 .onAppear { selectedTab = 3 }
                 .tag(3)
             
-            Text("Profile")
-                .tabItem { 
+            CurrentUserProfileView()
+                .tabItem {
                     VStack {
                         Image(systemName: selectedTab == 4 ? "person.fill" : "person")
                             .environment(\.symbolVariants, selectedTab == 0 ? .fill : .none)
@@ -57,3 +57,6 @@ struct MainTabView: View {
     }
 }
 
+#Preview {
+    MainTabView()
+}

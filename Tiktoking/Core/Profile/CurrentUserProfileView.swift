@@ -16,6 +16,7 @@ struct CurrentUserProfileView: View {
                     ProfileHeaderView()
                     
                     // post as grid view
+                    PostGridView()
                 }
                 .padding(.top)
             }
